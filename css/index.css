@@ -479,7 +479,6 @@ button:hover .fourth {
   gap: 1rem;
   box-sizing: border-box;
   height:65%;
-  border:2px solid red;
   width: 70%;
   left: 250px;
 }
@@ -1490,13 +1489,14 @@ transition:1s ease-out;
   /*Game Sections */
   .games {
     gap: 1rem;
-    height: 900px;
+    height: 100%;
     width: 395px;
     top: 65px;
     position: relative;
   }
 
   .gallery {
+
     position: relative;
     display: inline-block;
     top: 150px;
@@ -1552,7 +1552,7 @@ transition:1s ease-out;
   .second,
   .third,
   .fourth {
-    height: 350px;
+    height:350px;
   }
 
   .first h1 {
@@ -1677,7 +1677,7 @@ display: none;
   }
   .word{
     position: relative;
-    top: 950px;
+    top:450px;
   }
   .word h1{
     margin-left: -5px;
@@ -1690,7 +1690,7 @@ display: none;
   display: inline-block;
   width: 100%;
   height: 100%;
-  top: 90px;
+  top:-450px;
   position: relative;
 }
 
@@ -1699,15 +1699,16 @@ display: none;
   background-color: white;
   width: 80%;
   position: relative;
+  border: 5px solid black;
   left:60px;
   margin-bottom: 25px;
 }
 .emj{
-  margin-left: -20px;
+  display: none;
 }
 .thor{
   position: relative;
-  top:850px;
+  top:450px;
   object-fit: fill;
 }
 .tits,.tit2{
@@ -1811,7 +1812,7 @@ height:1200px;
   /*Review Section Starting */
   .gm{
     position: relative;
-    top: 1650px;
+    top: 1250px;
   }
   .gm img{
     display: none;
@@ -1828,7 +1829,7 @@ height:1200px;
   .car{
     display: inline-block;
     position: relative;
-    top: 1620px;
+    top: 1220px;
     left:45px;
     
     width: 80%;
