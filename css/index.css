@@ -205,7 +205,7 @@ ul li:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
-  height:25vh;
+  height:30vh;
   background-color: gold;
   justify-content: flex-start;
   transition:2s ease-in;
@@ -478,9 +478,10 @@ button:hover .fourth {
   display: flex;
   gap: 1rem;
   box-sizing: border-box;
-  height:65%;
-  width: 70%;
-  left: 250px;
+  height:55%;
+  width:90%;
+  border: 5px solid red;
+  left: 100px;
 }
 
 .gallery>div {
@@ -520,7 +521,7 @@ button:hover .fourth {
 
 
 .gallery>div:hover {
-  flex: 2;
+  flex:2;
   opacity: 1;
 }
 
@@ -1404,11 +1405,11 @@ transition:1s ease-out;
   }
 
   .container {
-    width: 55.5%;
+    width:58%;
   }
 
   .container img {
-    width: 190%;
+    width: 112vw;
     background-size: contain;
     height: 700px;
 
@@ -1455,7 +1456,7 @@ transition:1s ease-out;
     width: 200px;
     float: right;
     left: 135px;
-    top: -185px;
+    top: -135px;
   }
 
   .btn button {
@@ -1473,7 +1474,7 @@ transition:1s ease-out;
   }
 
   .mark {
-    width: 105.5%;
+    width: 112vw;
     position: relative;
   }
 
@@ -1503,8 +1504,8 @@ transition:1s ease-out;
     display: inline-block;
     box-sizing: border-box;
     height:150%;
-    left:80px;
-    width:70%;
+    left:50px;
+    width:80%;
   }
 
   .gallery>div {
@@ -1694,8 +1695,13 @@ display: none;
   position: relative;
 }
 
+.cards.show{
+  position: relative;
+  top: 250px;
+}
+
 .card1,.card2,.card3{
-  top: 770px;  
+  top: 70px;  
   background-color: white;
   width: 80%;
   position: relative;
@@ -1703,19 +1709,28 @@ display: none;
   left:60px;
   margin-bottom: 25px;
 }
+
+.img1 img{
+  height: 200px;
+width: 100%;
+background-position-x: left;
+}
+
+
 .emj{
   display: none;
 }
 .thor{
   position: relative;
-  top:450px;
+  top:350px;
+  width: 100%;
   object-fit: fill;
 }
 .tits,.tit2{
   display: inline-block;
   position: absolute;
   top: 133px;
-  left: 15px;
+  left: 0px;
   width: 90%;
   height: 90%;
 }
@@ -1724,7 +1739,7 @@ width:100%;
 height:1200px;
 }
 .im img{
-  width:105.7%;
+  width:112vw;
   position: absolute;
   height:1200px;
 }
