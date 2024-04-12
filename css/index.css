@@ -480,7 +480,6 @@ button:hover .fourth {
   box-sizing: border-box;
   height:55%;
   width:90%;
-  border: 5px solid red;
   left: 100px;
 }
 
@@ -1456,7 +1455,7 @@ transition:1s ease-out;
     width: 200px;
     float: right;
     left: 135px;
-    top: -135px;
+    top: -95px;
   }
 
   .btn button {
